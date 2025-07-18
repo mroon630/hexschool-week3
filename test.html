@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/all.css">
+  <style>
+    .grid-box{
+      overflow-x: auto;
+      display: grid;
+      grid-template-columns: repeat(12 ,300px);
+      grid-template-rows: repeat(1,300px);
+      gap: 16px;
+    }
+    .box{
+      background-color: pink;
+    }
+    .box-b{
+      background-color: black;
+    }
+    @media(min-width:540px){
+      .grid-box{
+      display: grid;
+      grid-template-columns: repeat(6 ,1fr);
+      grid-template-rows: repeat(3,209px);
+      gap: 8px;
+    }
+    .box-b{
+      grid-column:span 2;
+      grid-row: span 2;
+    }
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-box">
+    <div class="box">1</div>
+    <div class="box-b">1</div>
+    <div class="box">1</div>
+    <div class="box">1</div>
+    <div class="box">1</div>
+    <div class="box">1</div>
+    <div class="box-b">1</div>
+  </div>
+</body>
+</html>

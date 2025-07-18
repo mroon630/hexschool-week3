@@ -1,0 +1,73 @@
+
+.banner{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+  background-size: cover;
+  padding: 155px 24px;
+}
+.sale-item img{
+  max-width: 300px;
+}
+.co-brand-banner{
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true);
+  background-size: cover;
+}
+.title{
+  padding: 5px 0;
+}
+.star{
+    top: -16px;
+    left: -16px;
+    width: 48px;
+    height: 48px;
+  }
+  .sparkle{
+    bottom: 40px;
+    right: -40px;
+    width: 76px;
+    height: 64px;
+  }
+  .cover{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4)
+  }
+  .grid-photo-box{
+    display: grid;
+    overflow-x: auto;
+    grid-template-columns: repeat(12 ,300px);
+    grid-template-rows: repeat(1,300px);
+    gap: 16px;
+  }
+
+@media(min-width:540px){
+  .banner{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
+    padding: 288px 0;
+    padding-left: 200px;
+  }
+  .sale-item img{
+    max-width: 100%;
+  }
+  .co-brand-banner{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+  }
+  .star{
+    left: -80px;
+  }
+  .sparkle{
+    bottom: 32px;
+  }
+  .grid-photo-box{
+    overflow: hidden;
+    grid-template-columns: repeat(6 ,1fr);
+    grid-template-rows: repeat(3,209px);
+    gap: 8px;
+  }
+  .grid-photo-large{
+    grid-column:span 2;
+    grid-row: span 2;
+  }
+}
+

@@ -1,0 +1,43 @@
+.color-btn-group{
+  img{
+    width: 64px;
+    height: 64px;
+  }
+}
+.size-btn-group{
+  gap: 8px;
+}
+.size-btn-group .btn{
+  border: 1px solid #DEE2E6;
+}
+.size-btn-group .active,
+.size-btn-group .btn:hover{
+  border: 1px solid #212529;
+}
+.action-btn-group{
+  gap: 8px;
+}
+.action-btn-group .btn{
+  border:none;
+
+}
+.detail-heading{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.recommend-list img{
+  max-width: 300px;
+  height: 300px;
+}
+@media(min-width:540px){
+  .action-btn-group .btn{
+  border: 1px solid #212529;
+  }
+  .detail-heading{
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
+  .recommend-list img{
+    max-width: 100%;
+  }
+}

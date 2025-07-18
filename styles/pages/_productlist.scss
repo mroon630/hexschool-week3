@@ -1,0 +1,27 @@
+.heading{
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+}
+.product-cate .active{
+  color: #57A203;
+}
+.pagelist button{
+  width: 40px;
+  height: 40px;
+  padding: 8px 10.5px;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  background-color: #fff;
+  color: #212529;
+  border: 0;
+}
+.pagelist .active{
+  background-color: #C0FA73;
+  font-weight: 500;
+}
+@media(min-width:450px){
+  .heading{
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}

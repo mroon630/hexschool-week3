@@ -1,0 +1,70 @@
+// color
+$theme-colors: (
+  "primary-100":    #F5FEE7,
+  "primary-200":    #E8FEC5,
+  "primary-300":    #C0FA73,
+  "primary-400":    #57A203,
+  "primary-500":    #477A11,
+  "neutral-100":    #F8F9FA,
+  "neutral-300":    #DEE2E6,
+  "neutral-400":    #CED4DA,
+  "neutral-500":    #ADB5BD,
+  "neutral-600":    #6C757D,
+  "neutral-900":    #212529,
+  "danger-300":     #D74F4F,
+) ;
+// spacer
+$spacer: 4px;
+$spacers: (
+  0: 0,
+  1: $spacer,
+  2: $spacer * 2,
+  3: $spacer*3,
+  4: $spacer * 4,
+  6: $spacer * 6,
+  8:$spacer * 8,
+  10:$spacer * 10,
+  12:$spacer * 12,
+  14:$spacer * 14,
+  16:$spacer * 16,
+  20:$spacer * 20,
+  25:$spacer * 25,
+  hd:5px
+) ;
+// container
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+// font size
+$font-sizes: (
+  dp-1:64px,
+  dp-2:48px,
+  1: 40px,
+  2: 32px,
+  3: 28px,
+  4: 24px,
+  5: 20px,
+  6: 16px,
+  sm:14px,
+  md:18px,
+);
+// btn
+$btn-padding-y: $spacer*3; 
+$btn-padding-x: $spacer*6;
+$btn-border-radius: 4px;
+$btn-border-width:0;
+
+//  $enable-grid-classes: false;
+$enable-cssgrid:true;
+// negtive
+$enable-negative-margins:true;
+// breadcrumb
+$breadcrumb-active-color: #212529;
+$breadcrumb-divider-color: #6C757D;
+$breadcrumb-item-padding-x:0;
+$breadcrumb-margin-bottom: 0;
+
